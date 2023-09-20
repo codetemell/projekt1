@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<style>
+    body{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .input-control input::placeholder{
+font-size: 19px;
+color: blue;
+    }
+</style>
+<body>
+   
+<div  class="container">
+        <form   id="form"  action="/">
+
+            <h2>Registration</h2>
+            <div class="input-control">
+                <label  for="username">Username</label>
+                <input id="username"  placeholder="username"  name="username"  type="text">
+                <div  class="error"></div>
+            </div>
+<!-- ---------------- -->
+<div class="input-control">
+    <label  for="email">Email</label>
+    <input id="email"  placeholder="Email"  name="email"  type="text" >
+    <div  class="error"></div>
+</div>
+<!-- ---------------- -->
+  <div class="input-control">
+    <label  for="password">Password</label>
+    <input id="password"  placeholder="password"  name="password"  type="password">
+    <div  class="error"></div>
+</div>
+<!-- ------------------- -->
+<div class="input-control">
+    <label  for="password">Password  again</label>
+    <input id="password2"  placeholder="password..."  name="password2"  type="password">
+    <div  class="error"></div>
+</div>
+<button  type="submit">Sign up</button>
+        </form>
+    </div>
+ <script  src="./index.js"></script>
+</body>
+</html>
